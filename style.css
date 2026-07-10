@@ -318,3 +318,21 @@ footer {
     .about-grid { grid-template-columns: 1fr; }
     .contact-info { flex-direction: column; align-items: center; gap: 15px; }
 }
+
+.project-container { display: flex; gap: 20px; justify-content: center; }
+.project-card { border: 1px solid #ffaa00; padding: 20px; border-radius: 8px; width: 2300px; }
+
+
+.social-links { margin-top: 20px; font-size: 24px; }
+.social-links a { 
+    margin: 0 10px; 
+    color: #ffaa00; 
+    text-decoration: none; 
+    transition: transform 0.3s ease; 
+    display: inline-block; 
+}
+
+.social-links a:hover {
+    transform: scale(1.3); 
+    color: #ffffff; 
+}
