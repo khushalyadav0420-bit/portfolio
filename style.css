@@ -322,6 +322,34 @@ footer {
 .project-container { display: flex; gap: 20px; justify-content: center; }
 .project-card { border: 1px solid #ffaa00; padding: 20px; border-radius: 8px; width: 2300px; }
 
+/* --- View Project Button Styling --- */
+.btn-project {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 22px;
+    color: var(--accent-color); 
+    background: transparent;
+    border: 2px solid var(--accent-color);
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+}
+
+.btn-project i {
+    margin-left: 8px;
+    font-size: 0.85rem;
+}
+
+/* होवर करने पर बटन का एनिमेशन */
+.btn-project:hover {
+    background: var(--accent-color);
+    color: #000000; /* टेक्स्ट ब्लैक हो जाएगा */
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 183, 3, 0.3); /* गोल्ड ग्लो इफेक्ट */
+}
 
 .social-links { margin-top: 20px; font-size: 24px; }
 .social-links a { 
